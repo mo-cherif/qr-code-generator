@@ -12,7 +12,7 @@ date = datetime.datetime.now()
 
 @app.route("/")
 def home():
-    return render_template("index.html", date=date.year)
+    return render_template("home.html", date=date.year)
 
 @app.route("/", methods =["GET", "POST"])
 def qr():
