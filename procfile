@@ -1,1 +1,1 @@
-web: guincorn index:index
+web: guincorn index:home
