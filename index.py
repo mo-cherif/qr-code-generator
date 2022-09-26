@@ -11,7 +11,7 @@ import datetime
 date = datetime.datetime.now()
 
 @app.route("/")
-def home():
+def home_page():
     return render_template("home.html", date=date.year)
 
 @app.route("/", methods =["GET", "POST"])
